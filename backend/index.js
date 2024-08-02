@@ -37,7 +37,7 @@ server.post('/', async (req, res) => {
   console.log(doc);
   res.json(doc);
 });
-
+ 
 server.listen(PORT, () => {
   console.log(`Server listening at ${PORT}`);
 });
